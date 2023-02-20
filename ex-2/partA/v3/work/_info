@@ -67,6 +67,11 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.4_2 2021.12, Dec  4 2021
 13
 !s112 1.1
@@ -76,10 +81,10 @@ R0
 cModel Technology
 Z1 d/home/courses/desdigsys2/2023s//dds223s14/ex-2/partA/v1
 T_opt
-!s110 1676908728
-Ve@iXZ]KFBJ6=XZTj;]4J^2
+!s110 1676913174
+VBSMm;5HHAAlV6RVRb2I]d3
 Z2 04 10 4 work test_ex1_1 fast 0
-=1-782bcb167ba2-63f398b7-820a6-1206
+=1-782bcb167ba2-63f3aa15-e5ebd-677
 Z3 !s124 OEM100
 Z4 o-quiet -auto_acc_if_foreign -work work
 Z5 tCvgOpt 0
@@ -109,79 +114,79 @@ R6
 R1
 vex1_1
 Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1676908725
+Z8 !s110 1676913172
 !i10b 1
 !s100 I^G_f9i=0=dz]_>2kcoF@0
-ITOWAAl_JU=GP;1jb`i9b=2
+IM`0k;PRDz@ImLYG5m@b?J3
 S1
 Z9 d/home/courses/desdigsys2/2023s//dds223s14/TFE4171-Design_of_Digital_Systems_2/ex-2/partA/v3
-Z10 w1676308565
+w1676308565
 8ex1-1.v
 Fex1-1.v
-!i122 142
+!i122 147
 L0 12 56
-Z11 VDg1SIo80bB@j0V0VzS_@n1
-Z12 OE;L;2021.4_2;73
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OE;L;2021.4_2;73
 r1
 !s85 0
 31
-Z13 !s108 1676908725.000000
-Z14 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
-Z15 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check5|
+Z12 !s108 1676913172.000000
+Z13 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
+Z14 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check2|
 !i113 0
-Z16 !s102 +cover
-Z17 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z18 !s92 -sv +acc +cover +define+check5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 !s102 +cover
+Z16 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z17 !s92 -sv +acc +cover +define+check2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R5
 vex1_1_property
 R7
 R8
 !i10b 1
-!s100 oFZ?YeWA>E9LF<]mP8S572
-I^bSJ72SjBB<OdKeZ;Z80g1
+!s100 9RbT@;mTYC2jAN6n];zCk0
+IOI=Pd?RNL77>[lR]nKYXg3
 S1
 R9
 w1676308715
 8ex1-1-property.sv
 Fex1-1-property.sv
-!i122 142
+!i122 147
 L0 11 61
+R10
 R11
-R12
 r1
 !s85 0
 31
+R12
 R13
 R14
-R15
 !i113 0
+R15
 R16
 R17
-R18
 R5
 vtest_ex1_1
 R7
 R8
 !i10b 1
 !s100 [8n[XJhWHED>o2Kf703<l1
-IP^;Ue[gz<jRQUEM3?h4<z2
+I@5Jb:RPDHiKC^lh9RRUWd2
 S1
 R9
-R10
+w1676913167
 8test-ex1-1.sv
 Ftest-ex1-1.sv
-!i122 142
+!i122 147
 L0 1 77
+R10
 R11
-R12
 r1
 !s85 0
 31
+R12
 R13
 R14
-R15
 !i113 0
+R15
 R16
 R17
-R18
 R5

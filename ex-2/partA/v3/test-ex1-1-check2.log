@@ -1,5 +1,5 @@
 # vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check2.log -do " run -all; quit" 
-# Start time: 16:58:38 on Feb 20,2023
+# Start time: 18:12:53 on Feb 20,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Note: (vopt-143) Recognized 1 FSM in module "ex1_1(fast)".
 # //  Questa Sim
@@ -66,8 +66,8 @@
 #        325  	 validi_check TEST PASS
 #        335  rst=0 clk=1 validi=0 DIN=31 valido=0 DOUT=842
 # ** Note: Data structure takes 4879708 bytes of memory
-#          Process time 0.02 seconds
+#          Process time 0.01 seconds
 #          $finish    : test-ex1-1.sv(28)
 #    Time: 335 ns  Iteration: 1  Instance: /test_ex1_1
-# End time: 16:58:39 on Feb 20,2023, Elapsed time: 0:00:01
+# End time: 18:12:54 on Feb 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
