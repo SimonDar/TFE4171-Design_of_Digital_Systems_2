@@ -1,5 +1,5 @@
 # vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check2.log -do " run -all; quit" 
-# Start time: 18:12:39 on Feb 13,2023
+# Start time: 16:58:38 on Feb 20,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Note: (vopt-143) Recognized 1 FSM in module "ex1_1(fast)".
 # //  Questa Sim
@@ -69,5 +69,5 @@
 #          Process time 0.02 seconds
 #          $finish    : test-ex1-1.sv(28)
 #    Time: 335 ns  Iteration: 1  Instance: /test_ex1_1
-# End time: 18:12:40 on Feb 13,2023, Elapsed time: 0:00:01
+# End time: 16:58:39 on Feb 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
