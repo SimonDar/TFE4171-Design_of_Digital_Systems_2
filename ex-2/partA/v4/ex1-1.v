@@ -18,7 +18,7 @@ module ex1_1 (
    
    enum 			  {S0, S1, S2} state = S0, next = S0;
    
-   logic [31:0] 		  a;
+   logic [31:0] 		  a, b, c;
 
    always_ff @(posedge clk or posedge rst) begin
       if (rst) begin
@@ -42,7 +42,7 @@ module ex1_1 (
 	   // S1
 	   S1: begin
 	      if (validi) begin
-		 a *= data_in;
+		 b = data_in;
 		 next = S2;
 	      end
 	      else
@@ -52,12 +52,25 @@ module ex1_1 (
 	   // S2
 	   S2: begin
 	      if (validi) begin
-		 a += data_in;
-		 data_out <= a;
+		 c = data_in;
+		 
+		 data_out <= a * b + c;
+
+		 a = b;
+		 b = c;
+	
 		 valido <= 1'b1;
+
+
 	      end
+		  else begin
+		  valido <= 1'b0;
+
 	      next = S0;
+		  end
 	   end
+
+	   
 	       
 	 endcase
 	 state = next;
