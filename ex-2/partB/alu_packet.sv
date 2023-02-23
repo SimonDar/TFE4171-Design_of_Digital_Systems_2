@@ -32,7 +32,7 @@ class alu_data;
         
         constraint c3
         { 
-                data.a inside{[0:6]};
+                data.op inside{[0:6]};
         }
 
 
