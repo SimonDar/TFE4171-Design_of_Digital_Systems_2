@@ -107,6 +107,7 @@ R4
 R5
 n@_opt1
 R6
+R1
 T_opt2
 !s110 1676309261
 Vi@BeR<@]H4ZYPo`[>T;8?2
@@ -120,29 +121,29 @@ R6
 R1
 vex1_1
 Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1677192153
+Z8 !s110 1677193379
 !i10b 1
 !s100 DhLhBo;UiU;CZe<BC8T]Y1
 Ioc=5BXl;X150OH4>RLAeO3
 S1
 Z9 d/home/courses/desdigsys2/2023s//dds223s14/TFE4171-Design_of_Digital_Systems_2/ex-2/partA/v4
-w1677192149
+w1677192311
 8ex1-1.v
 Fex1-1.v
-!i122 156
+!i122 157
 L0 12 69
 Z10 VDg1SIo80bB@j0V0VzS_@n1
 Z11 OE;L;2021.4_2;73
 r1
 !s85 0
 31
-Z12 !s108 1677192153.000000
-Z13 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
-Z14 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check5|
+Z12 !s108 1677193379.000000
+!s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
+Z13 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check5|
 !i113 0
-Z15 !s102 +cover
-Z16 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z17 !s92 -sv +acc +cover +define+check5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s102 +cover
+Z15 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 !s92 -sv +acc +cover +define+check5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R5
 vex1_1_property
 R7
@@ -155,7 +156,7 @@ R9
 w1676915388
 8ex1-1-property.sv
 Fex1-1-property.sv
-!i122 156
+!i122 157
 L0 11 61
 R10
 R11
@@ -163,12 +164,12 @@ r1
 !s85 0
 31
 R12
+Z17 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
 R13
-R14
 !i113 0
+R14
 R15
 R16
-R17
 R5
 vtest_ex1_1
 R7
@@ -181,7 +182,7 @@ R9
 w1677189915
 8test-ex1-1.sv
 Ftest-ex1-1.sv
-!i122 156
+!i122 157
 L0 1 77
 R10
 R11
@@ -189,10 +190,10 @@ r1
 !s85 0
 31
 R12
+R17
 R13
-R14
 !i113 0
+R14
 R15
 R16
-R17
 R5
