@@ -50,9 +50,19 @@ covergroup alu_cg @(posedge clk);
 endgroup
 
 //Initialize your covergroup here
-alu_cg alu_cg_inst = new();
+//alu_cg alu_cg_inst = new();
+
+initial begin 
+	alu_cg = new();
+end 
 
 //Sample covergroup here
-always @(posedge clk) alu_cg_inst.sample();
+//always @(posedge clk) alu_cg_inst.sample();
+always @(posedge clk) begin
+	alu_data.get();
+	alu_cg.sample();
+end
+
+
 
 endmodule:alu_tb
