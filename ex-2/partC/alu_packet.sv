@@ -27,12 +27,12 @@ class alu_data;
         
         constraint c2
         { 
-                data.b inside{[0:127]};//255]};
+                data.b inside{[0:255]};
         }
         
         constraint c3
         { 
-                data.op inside{[0:6]};
+                data.op inside{[0:7]};
         }
 
 

@@ -1,6 +1,6 @@
 # vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check1.log -do " run -all; quit" 
-# Start time: 16:51:26 on Feb 20,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 19:51:03 on Feb 26,2023
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "ex1_1(fast)".
 # //  Questa Sim
 # //  Version 2021.4_2 linux Dec  4 2021
@@ -41,25 +41,25 @@
 #        155  rst=0 clk=1 validi=1 DIN=14 valido=0 DOUT=101
 #        165  rst=0 clk=1 validi=1 DIN=15 valido=0 DOUT=101
 #        175  rst=0 clk=1 validi=1 DIN=16 valido=1 DOUT=197
-#        185  rst=0 clk=1 validi=1 DIN=17 valido=0 DOUT=197
-#        195  rst=0 clk=1 validi=0 DIN=18 valido=0 DOUT=197
-#        205  rst=0 clk=1 validi=1 DIN=19 valido=0 DOUT=197
-#        215  rst=0 clk=1 validi=1 DIN=20 valido=0 DOUT=197
-#        225  rst=0 clk=1 validi=1 DIN=21 valido=0 DOUT=197
+#        185  rst=0 clk=1 validi=1 DIN=17 valido=1 DOUT=226
+#        195  rst=0 clk=1 validi=0 DIN=18 valido=1 DOUT=257
+#        205  rst=0 clk=1 validi=1 DIN=19 valido=0 DOUT=257
+#        215  rst=0 clk=1 validi=1 DIN=20 valido=0 DOUT=257
+#        225  rst=0 clk=1 validi=1 DIN=21 valido=0 DOUT=257
 #        235  rst=0 clk=1 validi=1 DIN=22 valido=1 DOUT=401
-#        245  rst=0 clk=1 validi=0 DIN=23 valido=0 DOUT=401
-#        255  rst=0 clk=1 validi=0 DIN=24 valido=0 DOUT=401
-#        265  rst=0 clk=1 validi=1 DIN=25 valido=0 DOUT=401
-#        275  rst=0 clk=1 validi=1 DIN=26 valido=0 DOUT=401
-#        285  rst=0 clk=1 validi=1 DIN=27 valido=0 DOUT=401
+#        245  rst=0 clk=1 validi=0 DIN=23 valido=1 DOUT=442
+#        255  rst=0 clk=1 validi=0 DIN=24 valido=0 DOUT=442
+#        265  rst=0 clk=1 validi=1 DIN=25 valido=0 DOUT=442
+#        275  rst=0 clk=1 validi=1 DIN=26 valido=0 DOUT=442
+#        285  rst=0 clk=1 validi=1 DIN=27 valido=0 DOUT=442
 #        295  rst=0 clk=1 validi=1 DIN=28 valido=1 DOUT=677
-#        305  rst=0 clk=1 validi=1 DIN=29 valido=0 DOUT=677
-#        315  rst=0 clk=1 validi=1 DIN=30 valido=0 DOUT=677
+#        305  rst=0 clk=1 validi=1 DIN=29 valido=1 DOUT=730
+#        315  rst=0 clk=1 validi=1 DIN=30 valido=1 DOUT=785
 #        325  rst=0 clk=1 validi=0 DIN=31 valido=1 DOUT=842
 #        335  rst=0 clk=1 validi=0 DIN=31 valido=0 DOUT=842
 # ** Note: Data structure takes 4879708 bytes of memory
-#          Process time 0.01 seconds
+#          Process time 0.02 seconds
 #          $finish    : test-ex1-1.sv(28)
 #    Time: 335 ns  Iteration: 1  Instance: /test_ex1_1
-# End time: 16:51:27 on Feb 20,2023, Elapsed time: 0:00:01
+# End time: 19:51:04 on Feb 26,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

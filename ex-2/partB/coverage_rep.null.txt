@@ -33,7 +33,8 @@ Covergroup                                             Metric       Goal       B
         covered/total bins:                                33         64          -                                      na                 na                 na                 na 
         missing/total bins:                                31         64          -                                      na                 na                 na                 na 
         % Hit:                                         51.56%        100          -                                      na                 na                 na                 na 
-    Cross a_b_op                                        1.22%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
+    Cross a_b_op                   
+                         1.22%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
         covered/total bins:                                50       4096          -                                      na                 na                 na                 na 
         missing/total bins:                              4046       4096          -                                      na                 na                 na                 na 
         % Hit:                                          1.22%        100          -                                      na                 na                 na                 na 

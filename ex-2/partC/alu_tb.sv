@@ -53,13 +53,11 @@ covergroup alu_cg @(posedge clk);
 	a_cg : coverpoint a {
 		bins zero = {0};
 		bins little = {[1:50]}; //cant call it small due to small beeing defind somewhere in the system
-		bins hunds[2] ={100,200};
+		bins hunds[2] ={100, 200};
 		bins big = {[200:$]}; //cant call it large
 	}
 	
-	b_cg : coverpoint b;
-
-	aXb_cg : cross b_cg, a; 
+	aXb_cg : cross a, b;  
 endgroup
 
 //Initialize your covergroup here
