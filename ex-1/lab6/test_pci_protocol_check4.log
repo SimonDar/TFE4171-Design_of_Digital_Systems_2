@@ -1,6 +1,6 @@
 # vsim -assertdebug -coverage -c test_pci_protocol -l test_pci_protocol_check4.log -do "run -all; quit" 
 # Start time: 19:27:24 on Feb 12,2023
-# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3812)  Design is being optimized...
 # //  Questa Sim
 # //  Version 2021.4_2 linux Dec  4 2021
 # //
