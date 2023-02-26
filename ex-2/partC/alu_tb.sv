@@ -4,10 +4,10 @@ timeunit 10ns;
 
 module alu_tb();
 	reg clk = 0;
-	bit [0:7] a = 8'h0;
-	bit [0:7] b = 8'h0;
+	bit [0:31] a = 8'h0;
+	bit [0:31] b = 8'h0;
 	bit [0:2] op = 3'h0;
-	wire [0:7] r;
+	wire [0:31] r;
 
 parameter NUMBERS = 10000;
 

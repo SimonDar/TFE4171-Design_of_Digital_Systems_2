@@ -2,8 +2,8 @@
 
 typedef struct
 {
-	rand bit[0:7] a;
-	rand bit[0:7] b;
+	rand bit[0:31] a;
+	rand bit[0:31] b;
 	rand bit[0:2] op;
 
 } data_t;
@@ -13,7 +13,7 @@ class alu_data;
         rand data_t data;
 
         // Class methods(tasks) go here
-        task get(ref bit [0:7] a, ref bit [0:7] b, ref bit [0:2] op);
+        task get(ref bit [0:31] a, ref bit [0:31] b, ref bit [0:2] op);
                 a       = data.a;
                 b       = data.b;
                 op      = data.op;

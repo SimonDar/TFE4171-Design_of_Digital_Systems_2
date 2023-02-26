@@ -13,7 +13,13 @@ module ex1_1 (
 	      input 		  clk, rst, validi,
 	      input [31:0] 	  data_in,
 	      output logic 	  valido, 
-	      output logic [31:0] data_out
+	      output logic [31:0] data_out,
+ 
+		  input 	logic [31:0] alu_r_1, alu_r_2,
+		  output 	logic [31:0] alu_a_1, alu_a_2,
+		  output 	logic [31:0] alu_b_1, alu_b_2,	  
+		  output 	logic [2:0] alu_op_1, alu_op_2
+
 	      );
    
    enum 			  {S0, S1, S2} state = S0, next = S0;
@@ -25,6 +31,9 @@ module ex1_1 (
 	 data_out <= 32'b0;
 	 valido <= 1'b0;
 	 state = S0;
+
+		alu_op_1 = 3'b010;
+		alu_op_2 = 3'b000;
       end
    
       else begin
@@ -54,7 +63,13 @@ module ex1_1 (
 	      if (validi) begin
 		 c = data_in;
 		 
-		 data_out <= a * b + c;
+		 alu_a_1 = a;
+		 alu_b_1 = b;
+		 alu_a_2 = alu_r_1;
+		 alu_b_2 = data_out;
+
+
+		 data_out <= alu_r_2;
 
 		 a = b;
 		 b = c;

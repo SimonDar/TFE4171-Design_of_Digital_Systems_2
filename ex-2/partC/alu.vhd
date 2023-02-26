@@ -4,16 +4,16 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity alu is
 port(   Clk : in std_logic; --clock signal
-        A,B : in signed(7 downto 0); --input operands
+        A,B : in signed(31 downto 0); --input operands
         Op : in unsigned(2 downto 0); --Operation to be performed
-        R : out signed(7 downto 0)  --output of ALU
+        R : out signed(31 downto 0)  --output of ALU
         );
 end alu;
 
 architecture Behavioral of alu is
 
 --temporary signal declaration.
-signal Reg1,Reg2,Reg3 : signed(7 downto 0) := (others => '0');
+signal Reg1,Reg2,Reg3 : signed(31 downto 0) := (others => '0');
 
 begin
 
