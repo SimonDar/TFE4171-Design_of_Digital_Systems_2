@@ -1,6 +1,6 @@
 # vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check4.log -do " run -all; quit" 
-# Start time: 21:19:56 on Feb 26,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 22:58:57 on Feb 26,2023
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "ex1_1(fast)".
 # //  Questa Sim
 # //  Version 2021.4_2 linux Dec  4 2021
@@ -87,7 +87,7 @@
 #        335  rst=0 clk=1 validi=0 DIN=31 valido=0 DOUT=z
 # ** Note: Data structure takes 4879708 bytes of memory
 #          Process time 0.01 seconds
-#          $finish    : test-ex1-1.sv(28)
+#          $finish    : test-ex1-1.sv(30)
 #    Time: 335 ns  Iteration: 1  Instance: /test_ex1_1
-# End time: 21:19:57 on Feb 26,2023, Elapsed time: 0:00:01
+# End time: 22:58:58 on Feb 26,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 9

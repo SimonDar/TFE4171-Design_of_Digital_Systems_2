@@ -1,0 +1,666 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /alu_tb
+=== Design Unit: work.alu_tb
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    32.62%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins       4237        14      4223     0.33%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                           Memory              Time  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /alu_tb/alu_cg                                   32.62%        100          -    Uncovered                       235.7KB              1.5KB              9.3KB               0 ns 
+    covered/total bins:                                    14       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    missing/total bins:                                  4223       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    % Hit:                                              0.33%        100          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    Coverpoint op_cg                                  100.00%        100          -    Covered                            340B               464B               464B              10 ns 
+        covered/total bins:                                 8          8          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          8          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+    Coverpoint a_cg                                    60.00%        100          -    Uncovered                          580B               648B               648B              10 ns 
+        covered/total bins:                                 3          5          -                                      na                 na                 na                 na 
+        missing/total bins:                                 2          5          -                                      na                 na                 na                 na 
+        % Hit:                                         60.00%        100          -                                      na                 na                 na                 na 
+    Coverpoint a                                        1.56%        100          -    Uncovered                         3.0KB              3.6KB              3.6KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+    Coverpoint b                                        1.56%        100          -    Uncovered                         3.0KB              3.7KB              3.7KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+    Cross aXb_cg                                        0.02%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
+        covered/total bins:                                 1       4096          -                                      na                 na                 na                 na 
+        missing/total bins:                              4095       4096          -                                      na                 na                 na                 na 
+        % Hit:                                          0.02%        100          -                                      na                 na                 na                 na 
+ Covergroup instance \/alu_tb/alu_cg_inst              32.62%        100          -    Uncovered                       235.7KB              1.5KB              9.3KB               0 ns 
+    covered/total bins:                                    14       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    missing/total bins:                                  4223       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    % Hit:                                              0.33%        100          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    Coverpoint op_cg                                  100.00%        100          -    Covered                            340B               464B               464B              10 ns 
+        covered/total bins:                                 8          8          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          8          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        bin op_value[0]                                    12          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[1]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[2]                                    28          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[3]                                    24          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[4]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[5]                                     2          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[6]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[7]                                    10          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint a_cg                                    60.00%        100          -    Uncovered                          580B               648B               648B              10 ns 
+        covered/total bins:                                 3          5          -                                      na                 na                 na                 na 
+        missing/total bins:                                 2          5          -                                      na                 na                 na                 na 
+        % Hit:                                         60.00%        100          -                                      na                 na                 na                 na 
+        bin zero                                            2          1          -    Covered                              na                 na                 na                 na 
+        bin little                                         36          1          -    Covered                              na                 na                 na                 na 
+        bin hunds[0]                                        2          1          -    Covered                              na                 na                 na                 na 
+        bin hunds[1]                                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin big                                             0          1          -    ZERO                                 na                 na                 na                 na 
+    Coverpoint a                                        1.56%        100          -    Uncovered                         3.0KB              3.6KB              3.6KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+        bin auto[0:67108863]                              100          1          -    Covered                              na                 na                 na                 na 
+        bin auto[67108864:134217727]                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[134217728:201326591]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[201326592:268435455]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[268435456:335544319]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[335544320:402653183]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[402653184:469762047]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[469762048:536870911]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[536870912:603979775]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[603979776:671088639]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[671088640:738197503]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[738197504:805306367]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[805306368:872415231]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[872415232:939524095]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[939524096:1006632959]                      0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1006632960:1073741823]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1073741824:1140850687]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1140850688:1207959551]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1207959552:1275068415]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1275068416:1342177279]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1342177280:1409286143]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1409286144:1476395007]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1476395008:1543503871]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1543503872:1610612735]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1610612736:1677721599]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1677721600:1744830463]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1744830464:1811939327]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1811939328:1879048191]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1879048192:1946157055]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1946157056:2013265919]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2013265920:2080374783]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2080374784:2147483647]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2147483648:2214592511]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2214592512:2281701375]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2281701376:2348810239]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2348810240:2415919103]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2415919104:2483027967]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2483027968:2550136831]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2550136832:2617245695]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2617245696:2684354559]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2684354560:2751463423]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2751463424:2818572287]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2818572288:2885681151]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2885681152:2952790015]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2952790016:3019898879]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3019898880:3087007743]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3087007744:3154116607]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3154116608:3221225471]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3221225472:3288334335]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3288334336:3355443199]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3355443200:3422552063]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3422552064:3489660927]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3489660928:3556769791]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3556769792:3623878655]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3623878656:3690987519]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3690987520:3758096383]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3758096384:3825205247]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3825205248:3892314111]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3892314112:3959422975]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3959422976:4026531839]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4026531840:4093640703]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4093640704:4160749567]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4160749568:4227858431]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4227858432:4294967295]                     0          1          -    ZERO                                 na                 na                 na                 na 
+    Coverpoint b                                        1.56%        100          -    Uncovered                         3.0KB              3.7KB              3.7KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+        bin auto[0:67108863]                              100          1          -    Covered                              na                 na                 na                 na 
+        bin auto[67108864:134217727]                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[134217728:201326591]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[201326592:268435455]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[268435456:335544319]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[335544320:402653183]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[402653184:469762047]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[469762048:536870911]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[536870912:603979775]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[603979776:671088639]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[671088640:738197503]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[738197504:805306367]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[805306368:872415231]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[872415232:939524095]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[939524096:1006632959]                      0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1006632960:1073741823]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1073741824:1140850687]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1140850688:1207959551]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1207959552:1275068415]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1275068416:1342177279]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1342177280:1409286143]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1409286144:1476395007]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1476395008:1543503871]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1543503872:1610612735]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1610612736:1677721599]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1677721600:1744830463]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1744830464:1811939327]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1811939328:1879048191]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1879048192:1946157055]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1946157056:2013265919]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2013265920:2080374783]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2080374784:2147483647]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2147483648:2214592511]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2214592512:2281701375]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2281701376:2348810239]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2348810240:2415919103]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2415919104:2483027967]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2483027968:2550136831]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2550136832:2617245695]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2617245696:2684354559]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2684354560:2751463423]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2751463424:2818572287]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2818572288:2885681151]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2885681152:2952790015]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2952790016:3019898879]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3019898880:3087007743]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3087007744:3154116607]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3154116608:3221225471]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3221225472:3288334335]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3288334336:3355443199]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3355443200:3422552063]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3422552064:3489660927]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3489660928:3556769791]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3556769792:3623878655]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3623878656:3690987519]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3690987520:3758096383]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3758096384:3825205247]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3825205248:3892314111]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3892314112:3959422975]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3959422976:4026531839]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4026531840:4093640703]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4093640704:4160749567]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4160749568:4227858431]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4227858432:4294967295]                     0          1          -    ZERO                                 na                 na                 na                 na 
+    Cross aXb_cg                                        0.02%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
+        covered/total bins:                                 1       4096          -                                      na                 na                 na                 na 
+        missing/total bins:                              4095       4096          -                                      na                 na                 na                 na 
+        % Hit:                                          0.02%        100          -                                      na                 na                 na                 na 
+        Auto, Default and User Defined Bins:
+            bin <auto[0:67108863],auto[0:67108863]> 
+                                                          100          1          -    Covered                              na                 na                 na                 na 
+            bin <auto[4227858432:4294967295],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4160749568:4227858431],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4093640704:4160749567],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4026531840:4093640703],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3959422976:4026531839],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3892314112:3959422975],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3825205248:3892314111],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3758096384:3825205247],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3690987520:3758096383],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3623878656:3690987519],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3556769792:3623878655],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3489660928:3556769791],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3422552064:3489660927],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3355443200:3422552063],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3288334336:3355443199],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3221225472:3288334335],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3154116608:3221225471],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3087007744:3154116607],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3019898880:3087007743],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2952790016:3019898879],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2885681152:2952790015],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2818572288:2885681151],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2751463424:2818572287],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2684354560:2751463423],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2617245696:2684354559],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2550136832:2617245695],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2483027968:2550136831],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2415919104:2483027967],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2348810240:2415919103],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2281701376:2348810239],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2214592512:2281701375],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2147483648:2214592511],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2080374784:2147483647],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2013265920:2080374783],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1946157056:2013265919],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1879048192:1946157055],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1811939328:1879048191],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1744830464:1811939327],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1677721600:1744830463],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1610612736:1677721599],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1543503872:1610612735],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1476395008:1543503871],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1409286144:1476395007],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1342177280:1409286143],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1275068416:1342177279],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1207959552:1275068415],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1140850688:1207959551],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1073741824:1140850687],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1006632960:1073741823],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[939524096:1006632959],*>              0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[872415232:939524095],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[805306368:872415231],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[738197504:805306367],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[671088640:738197503],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[603979776:671088639],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[536870912:603979775],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[469762048:536870911],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[402653184:469762047],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[335544320:402653183],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[268435456:335544319],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[201326592:268435455],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[134217728:201326591],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[67108864:134217727],*>                0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4227858432:4294967295]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4160749568:4227858431]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4093640704:4160749567]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4026531840:4093640703]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3959422976:4026531839]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3892314112:3959422975]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3825205248:3892314111]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3758096384:3825205247]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3690987520:3758096383]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3623878656:3690987519]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3556769792:3623878655]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3489660928:3556769791]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3422552064:3489660927]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3355443200:3422552063]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3288334336:3355443199]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3221225472:3288334335]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3154116608:3221225471]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3087007744:3154116607]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3019898880:3087007743]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2952790016:3019898879]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2885681152:2952790015]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2818572288:2885681151]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2751463424:2818572287]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2684354560:2751463423]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2617245696:2684354559]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2550136832:2617245695]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2483027968:2550136831]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2415919104:2483027967]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2348810240:2415919103]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2281701376:2348810239]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2214592512:2281701375]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2147483648:2214592511]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2080374784:2147483647]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2013265920:2080374783]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1946157056:2013265919]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1879048192:1946157055]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1811939328:1879048191]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1744830464:1811939327]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1677721600:1744830463]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1610612736:1677721599]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1543503872:1610612735]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1476395008:1543503871]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1409286144:1476395007]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1342177280:1409286143]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1275068416:1342177279]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1207959552:1275068415]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1140850688:1207959551]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1073741824:1140850687]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1006632960:1073741823]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[939524096:1006632959]>              0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[872415232:939524095]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[805306368:872415231]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[738197504:805306367]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[671088640:738197503]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[603979776:671088639]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[536870912:603979775]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[469762048:536870911]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[402653184:469762047]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[335544320:402653183]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[268435456:335544319]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[201326592:268435455]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[134217728:201326591]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[67108864:134217727]>                0          1         64    ZERO                                 na                 na                 na                 na 
+
+COVERGROUP COVERAGE:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                           Memory              Time  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /alu_tb/alu_cg                                   32.62%        100          -    Uncovered                       235.7KB              1.5KB              9.3KB               0 ns 
+    covered/total bins:                                    14       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    missing/total bins:                                  4223       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    % Hit:                                              0.33%        100          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    Coverpoint op_cg                                  100.00%        100          -    Covered                            340B               464B               464B              10 ns 
+        covered/total bins:                                 8          8          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          8          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+    Coverpoint a_cg                                    60.00%        100          -    Uncovered                          580B               648B               648B              10 ns 
+        covered/total bins:                                 3          5          -                                      na                 na                 na                 na 
+        missing/total bins:                                 2          5          -                                      na                 na                 na                 na 
+        % Hit:                                         60.00%        100          -                                      na                 na                 na                 na 
+    Coverpoint a                                        1.56%        100          -    Uncovered                         3.0KB              3.6KB              3.6KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+    Coverpoint b                                        1.56%        100          -    Uncovered                         3.0KB              3.7KB              3.7KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+    Cross aXb_cg                                        0.02%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
+        covered/total bins:                                 1       4096          -                                      na                 na                 na                 na 
+        missing/total bins:                              4095       4096          -                                      na                 na                 na                 na 
+        % Hit:                                          0.02%        100          -                                      na                 na                 na                 na 
+ Covergroup instance \/alu_tb/alu_cg_inst              32.62%        100          -    Uncovered                       235.7KB              1.5KB              9.3KB               0 ns 
+    covered/total bins:                                    14       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    missing/total bins:                                  4223       4237          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    % Hit:                                              0.33%        100          -                                 235.7KB              1.5KB              9.3KB               0 ns 
+    Coverpoint op_cg                                  100.00%        100          -    Covered                            340B               464B               464B              10 ns 
+        covered/total bins:                                 8          8          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          8          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        bin op_value[0]                                    12          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[1]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[2]                                    28          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[3]                                    24          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[4]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[5]                                     2          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[6]                                     8          1          -    Covered                              na                 na                 na                 na 
+        bin op_value[7]                                    10          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint a_cg                                    60.00%        100          -    Uncovered                          580B               648B               648B              10 ns 
+        covered/total bins:                                 3          5          -                                      na                 na                 na                 na 
+        missing/total bins:                                 2          5          -                                      na                 na                 na                 na 
+        % Hit:                                         60.00%        100          -                                      na                 na                 na                 na 
+        bin zero                                            2          1          -    Covered                              na                 na                 na                 na 
+        bin little                                         36          1          -    Covered                              na                 na                 na                 na 
+        bin hunds[0]                                        2          1          -    Covered                              na                 na                 na                 na 
+        bin hunds[1]                                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin big                                             0          1          -    ZERO                                 na                 na                 na                 na 
+    Coverpoint a                                        1.56%        100          -    Uncovered                         3.0KB              3.6KB              3.6KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+        bin auto[0:67108863]                              100          1          -    Covered                              na                 na                 na                 na 
+        bin auto[67108864:134217727]                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[134217728:201326591]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[201326592:268435455]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[268435456:335544319]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[335544320:402653183]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[402653184:469762047]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[469762048:536870911]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[536870912:603979775]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[603979776:671088639]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[671088640:738197503]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[738197504:805306367]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[805306368:872415231]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[872415232:939524095]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[939524096:1006632959]                      0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1006632960:1073741823]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1073741824:1140850687]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1140850688:1207959551]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1207959552:1275068415]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1275068416:1342177279]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1342177280:1409286143]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1409286144:1476395007]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1476395008:1543503871]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1543503872:1610612735]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1610612736:1677721599]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1677721600:1744830463]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1744830464:1811939327]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1811939328:1879048191]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1879048192:1946157055]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1946157056:2013265919]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2013265920:2080374783]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2080374784:2147483647]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2147483648:2214592511]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2214592512:2281701375]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2281701376:2348810239]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2348810240:2415919103]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2415919104:2483027967]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2483027968:2550136831]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2550136832:2617245695]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2617245696:2684354559]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2684354560:2751463423]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2751463424:2818572287]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2818572288:2885681151]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2885681152:2952790015]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2952790016:3019898879]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3019898880:3087007743]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3087007744:3154116607]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3154116608:3221225471]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3221225472:3288334335]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3288334336:3355443199]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3355443200:3422552063]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3422552064:3489660927]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3489660928:3556769791]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3556769792:3623878655]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3623878656:3690987519]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3690987520:3758096383]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3758096384:3825205247]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3825205248:3892314111]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3892314112:3959422975]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3959422976:4026531839]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4026531840:4093640703]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4093640704:4160749567]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4160749568:4227858431]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4227858432:4294967295]                     0          1          -    ZERO                                 na                 na                 na                 na 
+    Coverpoint b                                        1.56%        100          -    Uncovered                         3.0KB              3.7KB              3.7KB              10 ns 
+        covered/total bins:                                 1         64          -                                      na                 na                 na                 na 
+        missing/total bins:                                63         64          -                                      na                 na                 na                 na 
+        % Hit:                                          1.56%        100          -                                      na                 na                 na                 na 
+        bin auto[0:67108863]                              100          1          -    Covered                              na                 na                 na                 na 
+        bin auto[67108864:134217727]                        0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[134217728:201326591]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[201326592:268435455]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[268435456:335544319]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[335544320:402653183]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[402653184:469762047]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[469762048:536870911]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[536870912:603979775]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[603979776:671088639]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[671088640:738197503]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[738197504:805306367]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[805306368:872415231]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[872415232:939524095]                       0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[939524096:1006632959]                      0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1006632960:1073741823]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1073741824:1140850687]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1140850688:1207959551]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1207959552:1275068415]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1275068416:1342177279]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1342177280:1409286143]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1409286144:1476395007]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1476395008:1543503871]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1543503872:1610612735]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1610612736:1677721599]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1677721600:1744830463]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1744830464:1811939327]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1811939328:1879048191]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1879048192:1946157055]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[1946157056:2013265919]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2013265920:2080374783]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2080374784:2147483647]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2147483648:2214592511]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2214592512:2281701375]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2281701376:2348810239]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2348810240:2415919103]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2415919104:2483027967]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2483027968:2550136831]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2550136832:2617245695]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2617245696:2684354559]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2684354560:2751463423]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2751463424:2818572287]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2818572288:2885681151]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2885681152:2952790015]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[2952790016:3019898879]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3019898880:3087007743]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3087007744:3154116607]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3154116608:3221225471]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3221225472:3288334335]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3288334336:3355443199]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3355443200:3422552063]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3422552064:3489660927]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3489660928:3556769791]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3556769792:3623878655]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3623878656:3690987519]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3690987520:3758096383]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3758096384:3825205247]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3825205248:3892314111]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3892314112:3959422975]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[3959422976:4026531839]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4026531840:4093640703]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4093640704:4160749567]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4160749568:4227858431]                     0          1          -    ZERO                                 na                 na                 na                 na 
+        bin auto[4227858432:4294967295]                     0          1          -    ZERO                                 na                 na                 na                 na 
+    Cross aXb_cg                                        0.02%        100          -    Uncovered                       227.6KB               200B               496B            1000 ns 
+        covered/total bins:                                 1       4096          -                                      na                 na                 na                 na 
+        missing/total bins:                              4095       4096          -                                      na                 na                 na                 na 
+        % Hit:                                          0.02%        100          -                                      na                 na                 na                 na 
+        Auto, Default and User Defined Bins:
+            bin <auto[0:67108863],auto[0:67108863]> 
+                                                          100          1          -    Covered                              na                 na                 na                 na 
+            bin <auto[4227858432:4294967295],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4160749568:4227858431],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4093640704:4160749567],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[4026531840:4093640703],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3959422976:4026531839],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3892314112:3959422975],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3825205248:3892314111],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3758096384:3825205247],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3690987520:3758096383],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3623878656:3690987519],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3556769792:3623878655],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3489660928:3556769791],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3422552064:3489660927],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3355443200:3422552063],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3288334336:3355443199],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3221225472:3288334335],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3154116608:3221225471],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3087007744:3154116607],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[3019898880:3087007743],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2952790016:3019898879],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2885681152:2952790015],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2818572288:2885681151],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2751463424:2818572287],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2684354560:2751463423],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2617245696:2684354559],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2550136832:2617245695],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2483027968:2550136831],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2415919104:2483027967],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2348810240:2415919103],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2281701376:2348810239],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2214592512:2281701375],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2147483648:2214592511],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2080374784:2147483647],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[2013265920:2080374783],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1946157056:2013265919],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1879048192:1946157055],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1811939328:1879048191],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1744830464:1811939327],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1677721600:1744830463],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1610612736:1677721599],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1543503872:1610612735],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1476395008:1543503871],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1409286144:1476395007],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1342177280:1409286143],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1275068416:1342177279],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1207959552:1275068415],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1140850688:1207959551],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1073741824:1140850687],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[1006632960:1073741823],*>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[939524096:1006632959],*>              0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[872415232:939524095],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[805306368:872415231],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[738197504:805306367],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[671088640:738197503],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[603979776:671088639],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[536870912:603979775],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[469762048:536870911],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[402653184:469762047],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[335544320:402653183],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[268435456:335544319],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[201326592:268435455],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[134217728:201326591],*>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <auto[67108864:134217727],*>                0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4227858432:4294967295]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4160749568:4227858431]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4093640704:4160749567]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[4026531840:4093640703]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3959422976:4026531839]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3892314112:3959422975]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3825205248:3892314111]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3758096384:3825205247]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3690987520:3758096383]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3623878656:3690987519]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3556769792:3623878655]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3489660928:3556769791]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3422552064:3489660927]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3355443200:3422552063]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3288334336:3355443199]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3221225472:3288334335]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3154116608:3221225471]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3087007744:3154116607]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[3019898880:3087007743]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2952790016:3019898879]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2885681152:2952790015]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2818572288:2885681151]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2751463424:2818572287]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2684354560:2751463423]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2617245696:2684354559]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2550136832:2617245695]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2483027968:2550136831]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2415919104:2483027967]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2348810240:2415919103]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2281701376:2348810239]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2214592512:2281701375]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2147483648:2214592511]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2080374784:2147483647]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[2013265920:2080374783]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1946157056:2013265919]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1879048192:1946157055]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1811939328:1879048191]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1744830464:1811939327]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1677721600:1744830463]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1610612736:1677721599]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1543503872:1610612735]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1476395008:1543503871]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1409286144:1476395007]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1342177280:1409286143]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1275068416:1342177279]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1207959552:1275068415]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1140850688:1207959551]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1073741824:1140850687]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[1006632960:1073741823]>             0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[939524096:1006632959]>              0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[872415232:939524095]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[805306368:872415231]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[738197504:805306367]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[671088640:738197503]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[603979776:671088639]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[536870912:603979775]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[469762048:536870911]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[402653184:469762047]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[335544320:402653183]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[268435456:335544319]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[201326592:268435455]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[134217728:201326591]>               0          1         64    ZERO                                 na                 na                 na                 na 
+            bin <*,auto[67108864:134217727]>                0          1         64    ZERO                                 na                 na                 na                 na 
+
+TOTAL COVERGROUP COVERAGE: 32.62%  COVERGROUP TYPES: 1
+Total Coverage By Instance (filtered view): 32.62%
+
+
+COVERGROUP MEMORY USAGE: Total 300.4KB, Peak 300.4KB at time 1000 ns for total 5 coverpoints/crosses.
+CONSTRAINT SOLVER MEMORY USAGE: Total 134.6KB,Peak 134.7KB at time 20 ns for total 50 randomize() calls.
+CLASS OBJECTS MEMORY USAGE: Total Memory 23.4KB and Peak Memory 23.4KB used at time 440 ns for total 50 class objects.
+DYNAMIC OBJECTS MEMORY USAGE: Total Memory 40B and Peak Memory 40B used at time 0 ns for total 1 dynamic objects.

@@ -1,7 +1,8 @@
 m255
 K4
 z2
-!s99 nomlopt
+Z0 !s99 nomlopt
+R0
 !s11f vlog 2021.4_2 2021.12, Dec  4 2021
 13
 !s112 1.1
@@ -9,92 +10,92 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/courses/desdigsys2/2023s//dds223s14/TFE4171-Design_of_Digital_Systems_2/ex-2/partA/v4
+Z1 d/home/courses/desdigsys2/2023s//dds223s14/TFE4171-Design_of_Digital_Systems_2/ex-2/partA/v4
 T_opt
-!s110 1677437463
-VRV?[mX?UZ7a6i>NM3VXZ40
+!s110 1677449165
+VaTSEI:jNScOQPFZE6Sn[F2
 04 10 4 work test_ex1_1 fast 0
-=1-782bcb167ba2-63fbaa17-3c81b-ceb
+=1-782bcb167ba2-63fbd7cd-12ba4-70fd
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
 OE;O;2021.4_2;73
 vex1_1
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1677437461
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1677449163
 !i10b 1
 !s100 DhLhBo;UiU;CZe<BC8T]Y1
-Ii^GSHjO3PN3Db]`:PNkYZ2
+IXL1lLKzKE2UAQ^lOfdKSN1
 S1
-R0
+R1
 w1677192311
 8ex1-1.v
 Fex1-1.v
-!i122 0
+!i122 1
 L0 12 69
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OE;L;2021.4_2;73
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OE;L;2021.4_2;73
 r1
 !s85 0
 31
-Z6 !s108 1677437461.000000
-Z7 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
-Z8 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check1|
+Z7 !s108 1677449163.000000
+Z8 !s107 test-ex1-1.sv|ex1-1-property.sv|ex1-1.v|
+Z9 !s90 -sv|ex1-1.v|ex1-1-property.sv|test-ex1-1.sv|+acc|+cover|+define+check4|
 !i113 0
-Z9 !s102 +cover
-Z10 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 !s92 -sv +acc +cover +define+check1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vex1_1_property
+Z10 !s102 +cover
+Z11 o-sv +acc +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv +acc +cover +define+check4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
+vex1_1_property
 R3
+R4
 !i10b 1
-!s100 GM1`i8>U_6Ddn<TNINl8l1
-I20XPPGMdFCaL@A5edQdcc2
+!s100 SPTh>@]B5bO:CY72mJU[]2
+I7IE8@Y_UO6JeOViD:@]Ph1
 S1
-R0
+R1
 w1676915388
 8ex1-1-property.sv
 Fex1-1-property.sv
-!i122 0
+!i122 1
 L0 11 61
-R4
 R5
+R6
 r1
 !s85 0
 31
-R6
 R7
 R8
-!i113 0
 R9
+!i113 0
 R10
 R11
-R1
-vtest_ex1_1
+R12
 R2
+vtest_ex1_1
 R3
+R4
 !i10b 1
 !s100 [8n[XJhWHED>o2Kf703<l1
-I@^XFUgW1a?kb=Ll5Q479F1
+Ij7NSZSzHWXnL3I1;b=XlB0
 S1
-R0
+R1
 w1677189915
 8test-ex1-1.sv
 Ftest-ex1-1.sv
-!i122 0
+!i122 1
 L0 1 77
-R4
 R5
+R6
 r1
 !s85 0
 31
-R6
 R7
 R8
-!i113 0
 R9
+!i113 0
 R10
 R11
-R1
+R12
+R2

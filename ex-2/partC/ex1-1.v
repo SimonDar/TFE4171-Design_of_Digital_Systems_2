@@ -63,10 +63,10 @@ module ex1_1 (
 	      if (validi) begin
 		 c = data_in;
 		 
-		 alu_a_1 = a;
+		/* alu_a_1 = a;
 		 alu_b_1 = b;
 		 alu_a_2 = alu_r_1;
-		 alu_b_2 = data_out;
+		 alu_b_2 = data_out;*/
 
 
 		 data_out <= alu_r_2;

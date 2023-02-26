@@ -1,5 +1,5 @@
 # vsim -assertdebug -coverage -c test_ex1_1 -l test-ex1-1-check4.log -do " run -all; quit" 
-# Start time: 17:10:23 on Feb 20,2023
+# Start time: 23:06:04 on Feb 26,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Note: (vopt-143) Recognized 1 FSM in module "ex1_1(fast)".
 # //  Questa Sim
@@ -37,10 +37,47 @@
 #        135  rst=0 clk=1 validi=0 DIN=12 valido=1 DOUT=101
 #        135  	DOUT TEST PASS:: data_out should be =101 data_out is=101 
 # 
-#        145  rst=0 clk=1 validi=0 DIN=12 valido=0 DOUT=101
+#        145  rst=0 clk=1 validi=1 DIN=13 valido=0 DOUT=101
+#        155  rst=0 clk=1 validi=1 DIN=14 valido=0 DOUT=101
+#        165  rst=0 clk=1 validi=1 DIN=15 valido=0 DOUT=101
+#        175  rst=0 clk=1 validi=1 DIN=16 valido=1 DOUT=197
+#        175  	DOUT TEST PASS:: data_out should be =197 data_out is=226 
+# 
+#        185  rst=0 clk=1 validi=1 DIN=17 valido=1 DOUT=226
+#        185  	DOUT TEST PASS:: data_out should be =226 data_out is=257 
+# 
+#        195  rst=0 clk=1 validi=0 DIN=18 valido=1 DOUT=257
+#        195  	DOUT TEST PASS:: data_out should be =257 data_out is=257 
+# 
+#        205  rst=0 clk=1 validi=1 DIN=19 valido=0 DOUT=257
+#        215  rst=0 clk=1 validi=1 DIN=20 valido=0 DOUT=257
+#        225  rst=0 clk=1 validi=1 DIN=21 valido=0 DOUT=257
+#        235  rst=0 clk=1 validi=1 DIN=22 valido=1 DOUT=401
+#        235  	DOUT TEST PASS:: data_out should be =401 data_out is=442 
+# 
+#        245  rst=0 clk=1 validi=0 DIN=23 valido=1 DOUT=442
+#        245  	DOUT TEST PASS:: data_out should be =442 data_out is=442 
+# 
+#        255  rst=0 clk=1 validi=0 DIN=24 valido=0 DOUT=442
+#        265  rst=0 clk=1 validi=1 DIN=25 valido=0 DOUT=442
+#        275  rst=0 clk=1 validi=1 DIN=26 valido=0 DOUT=442
+#        285  rst=0 clk=1 validi=1 DIN=27 valido=0 DOUT=442
+#        295  rst=0 clk=1 validi=1 DIN=28 valido=1 DOUT=677
+#        295  	DOUT TEST PASS:: data_out should be =677 data_out is=730 
+# 
+#        305  rst=0 clk=1 validi=1 DIN=29 valido=1 DOUT=730
+#        305  	DOUT TEST PASS:: data_out should be =730 data_out is=785 
+# 
+#        315  rst=0 clk=1 validi=1 DIN=30 valido=1 DOUT=785
+#        315  	DOUT TEST PASS:: data_out should be =785 data_out is=842 
+# 
+#        325  rst=0 clk=1 validi=0 DIN=31 valido=1 DOUT=842
+#        325  	DOUT TEST PASS:: data_out should be =842 data_out is=842 
+# 
+#        335  rst=0 clk=1 validi=0 DIN=31 valido=0 DOUT=842
 # ** Note: Data structure takes 4879708 bytes of memory
-#          Process time 0.01 seconds
+#          Process time 0.03 seconds
 #          $finish    : test-ex1-1.sv(28)
-#    Time: 145 ns  Iteration: 1  Instance: /test_ex1_1
-# End time: 17:10:25 on Feb 20,2023, Elapsed time: 0:00:02
+#    Time: 335 ns  Iteration: 1  Instance: /test_ex1_1
+# End time: 23:06:05 on Feb 26,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

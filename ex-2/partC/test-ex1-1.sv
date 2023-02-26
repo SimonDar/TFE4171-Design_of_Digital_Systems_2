@@ -22,6 +22,8 @@ module test_ex1_1;
       data_out
       );
 
+      
+
    initial begin
       clk=1'b0;
       set_stim;
