@@ -32,10 +32,23 @@ program testPr_hdlc(
 
   // VerifyAbortReceive should verify correct value in the Rx status/control
   // register, and that the Rx data buffer is zero after abort.
+
   task VerifyAbortReceive(logic [127:0][7:0] data, int Size);
     logic [7:0] ReadData;
 
     // INSERT CODE HERE
+
+    ReadAddress(3'b010, ReadData); //Sets ReadData = RX.status/control
+    assert (ReadData[3]) $display("RX Status Low") else $display("RX Status High");
+    // assert (ReadData[3]) $display("RX Status Low") else $display("RX Status High"); //check de andre fra output logg
+
+    ReadAddress(3'b011, ReadData);
+    assert (ReadData == 8'b00000000)  $display("RX data Low") else $display("RX data High");
+    
+
+
+    
+  
 
   endtask
 
