@@ -39,11 +39,11 @@ program testPr_hdlc(
     // INSERT CODE HERE
 
     ReadAddress(3'b010, ReadData); //Sets ReadData = RX.status/control
-    assert (ReadData[3]) $display("RX Status Low") else $display("RX Status High");
+    assert (ReadData[3]) $display("RX Status High"); else $display("RX Status Low");
     // assert (ReadData[3]) $display("RX Status Low") else $display("RX Status High"); //check de andre fra output logg
 
     ReadAddress(3'b011, ReadData);
-    assert (ReadData == 8'b00000000)  $display("RX data Low") else $display("RX data High");
+    assert (ReadData == 8'b00000000)  $display("RX data Low"); else $display("RX data High");
     
 
 
@@ -59,7 +59,22 @@ program testPr_hdlc(
     wait(uin_hdlc.Rx_Ready);
 
     // INSERT CODE HERE
+     ReadAddress(3'b010, ReadData);
+    assert(ReadData[2]) $display("RX FrameError High"); else $display("RX FrameError Low");
+    assert(ReadData[3]) $display("RX AbortSignal High"); else $display("RX AbortSignal Low");
+    assert(ReadData[4]) $display("RX Overflow High"); else $display("RX Overflow Low");
+
+
+    ReadAddress(3'b100, ReadData);
+    assert(ReadData == Size) $display("RX Len MATCHES expected Size"); else $display("RX Len DOES NOT match expected Size");
+
   
+    for (int i = 0; i < Size; i++) begin
+      ReadAddress(3'b011, ReadData);
+      assert(ReadData == data[i]) $display("PASS: Rx_Buff has correct data"); else $display("FAIL: Rx_Buff has correct data");
+      @(posedge uin_hdlc.Clk);
+    end
+
   endtask
 
   // VerifyNormalReceive should verify correct value in the Rx status/control
@@ -69,7 +84,9 @@ program testPr_hdlc(
     wait(uin_hdlc.Rx_Ready);
 
     // INSERT CODE HERE
-  
+    ReadAddress(3'h2, ReadData);
+    assert(ReadData[4]) $display("RX Overflow High"); else $display("RX Overflow Low");
+
   endtask
 
   /****************************************************************************
