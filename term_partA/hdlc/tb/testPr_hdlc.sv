@@ -38,17 +38,13 @@ program testPr_hdlc(
 
     // INSERT CODE HERE
 
-    ReadAddress(3'b010, ReadData); //Sets ReadData = RX.status/control
-    assert (ReadData[3]) $display("RX Status High"); else $display("RX Status Low");
-    // assert (ReadData[3]) $display("RX Status Low") else $display("RX Status High"); //check de andre fra output logg
+    ReadAddress(3'b010, ReadData);
+    assert(ReadData[2]) $display("FAIL: RX FrameError High"); else $display("PASS: RX FrameError Low");
+    assert(ReadData[3]) $display("PASS: RX AbortSignal High"); else $display("FAIL: RX AbortSignal Low");
+    assert(ReadData[4]) $display("FAIL: RX Overflow High"); else $display("PASS: RX Overflow Low");
 
     ReadAddress(3'b011, ReadData);
-    assert (ReadData == 8'b00000000)  $display("RX data Low"); else $display("RX data High");
-    
-
-
-    
-  
+    assert (ReadData == 8'b00000000)  $display("PASS. RX data Low"); else $display("FAIL. RX data High");    
 
   endtask
 
@@ -60,13 +56,13 @@ program testPr_hdlc(
 
     // INSERT CODE HERE
      ReadAddress(3'b010, ReadData);
-    assert(ReadData[2]) $display("RX FrameError High"); else $display("RX FrameError Low");
-    assert(ReadData[3]) $display("RX AbortSignal High"); else $display("RX AbortSignal Low");
-    assert(ReadData[4]) $display("RX Overflow High"); else $display("RX Overflow Low");
+    assert(ReadData[2]) $display("FAIL: RX FrameError High"); else $display("PASS: RX FrameError Low");
+    assert(ReadData[3]) $display("FAIL: RX AbortSignal High"); else $display("PASS: RX AbortSignal Low");
+    assert(ReadData[4]) $display("FAIL: RX Overflow High"); else $display("PASS: RX Overflow Low");
 
 
     ReadAddress(3'b100, ReadData);
-    assert(ReadData == Size) $display("RX Len MATCHES expected Size"); else $display("RX Len DOES NOT match expected Size");
+    assert(ReadData == Size) $display("PASS: RX Len MATCHES expected Size"); else $display("FAIL: RX Len DOES NOT match expected Size");
 
   
     for (int i = 0; i < Size; i++) begin
@@ -85,7 +81,7 @@ program testPr_hdlc(
 
     // INSERT CODE HERE
     ReadAddress(3'h2, ReadData);
-    assert(ReadData[4]) $display("RX Overflow High"); else $display("RX Overflow Low");
+    assert(ReadData[4]) $display("PASS: RX Overflow High"); else $display("FAIL: RX Overflow Low");
 
   endtask
 
@@ -244,9 +240,17 @@ program testPr_hdlc(
 
     //Enable FCS
     if(!Overflow && !NonByteAligned)
+      WriteAddress(8'b10, 8'h20);
+    else
+      WriteAddress(8'b10, 8'h00);
+
+    /*
+    if(!Overflow && !NonByteAligned)
       WriteAddress(RXSC, 8'h20);
     else
       WriteAddress(RXSC, 8'h00);
+    */
+
 
     //Generate stimulus
     InsertFlagOrAbort(1);

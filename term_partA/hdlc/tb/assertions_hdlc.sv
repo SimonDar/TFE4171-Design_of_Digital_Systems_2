@@ -37,6 +37,18 @@ module assertions_hdlc (
 
   sequence Rx_flag;
     // INSERT CODE HERE
+
+   logic [7:0] Flag_sequence[8] = '{0, 1, 1, 1, 1, 1, 1, 0};
+
+  (Rx == Flag_sequence[0]) ##1 
+  (Rx == Flag_sequence[1]) ##1 
+  (Rx == Flag_sequence[2]) ##1 
+  (Rx == Flag_sequence[3]) ##1 
+  (Rx == Flag_sequence[4]) ##1 
+  (Rx == Flag_sequence[5]) ##1 
+  (Rx == Flag_sequence[6]) ##1
+  (Rx == Flag_sequence[7]);   
+
   endsequence
 
   // Check if flag sequence is detected
@@ -56,8 +68,24 @@ module assertions_hdlc (
    ********************************************/
 
   //If abort is detected during valid frame. then abort signal should go high
+sequence AbortPattern;
+  
+    logic [7:0] Abort_Pattern[8] = '{1, 1, 1, 1, 1, 1, 1, 0};
+
+    (Rx == Abort_Pattern[0]) ##1 
+    (Rx == Abort_Pattern[1]) ##1 
+    (Rx == Abort_Pattern[2]) ##1 
+    (Rx == Abort_Pattern[3]) ##1 
+    (Rx == Abort_Pattern[4]) ##1 
+    (Rx == Abort_Pattern[5]) ##1 
+    (Rx == Abort_Pattern[6]) ##1
+    (Rx == Abort_Pattern[7]);  
+  endsequence
+ 
+
   property RX_AbortSignal;
-    // INSERT CODE HERE
+    // INSERT CODE HERE   
+    @(posedge Clk)  Rx_AbortDetect and AbortPattern and Rx_ValidFrame |=> RX_AbortSignal;
   endproperty
 
   RX_AbortSignal_Assert : assert property (RX_AbortSignal) begin
