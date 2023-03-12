@@ -74,7 +74,7 @@ sequence AbortPattern;
 
     (Rx == Abort_Pattern[0]) ##1 
     (Rx == Abort_Pattern[1]) ##1 
-    (Rx == Abort_Pattern[2]) ##1 
+    (Rx == Abort_Pattern[2]) ##1  
     (Rx == Abort_Pattern[3]) ##1 
     (Rx == Abort_Pattern[4]) ##1 
     (Rx == Abort_Pattern[5]) ##1 

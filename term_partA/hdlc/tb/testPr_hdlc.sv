@@ -71,7 +71,7 @@ program testPr_hdlc(
       @(posedge uin_hdlc.Clk);
     end
 
-  endtask
+  endtask 
 
   // VerifyNormalReceive should verify correct value in the Rx status/control
   // register, and that the Rx data buffer contains correct data.
