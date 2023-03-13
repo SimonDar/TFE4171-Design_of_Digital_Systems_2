@@ -1,0 +1,41 @@
+// @lang=sva @ts=2
+
+module jkff_property_suite(clk, j_i, k_i, q_o);
+
+input logic clk;
+input logic j_i,k_i;
+input logic q_o;
+
+// sequence definitions
+
+
+
+// property definitions
+
+property firstCheeck;
+j_i && !k_i |=> q_o;
+endproperty
+
+property secoundCheeck;
+k_i && !j_i |=> !q_o;
+endproperty
+
+property thirdCheeck;
+j_i && k_i |=>  q_o == !$past(q_o);
+endproperty
+
+property fourthCheeck;
+!(j_i || k_i) |=>  q_o == $past(q_o);
+endproperty
+
+// make assertion on properties to be checked
+
+inst_firstCheeck:   assert property(@(posedge clk)    firstCheeck); 
+inst_secoundCheeck: assert property(@(posedge clk)  secoundCheeck);
+inst_thirdCheeck:   assert property(@(posedge clk)    thirdCheeck);
+inst_fourthCheeck:  assert property(@(posedge clk)   fourthCheeck);
+
+endmodule
+
+// bind the verification IP to the design
+bind jkff jkff_property_suite inst_jkff_property_suite(.*);

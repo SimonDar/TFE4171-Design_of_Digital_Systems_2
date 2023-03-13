@@ -1,0 +1,27 @@
+// @lang=sva @ts=2
+
+module busarbiter_properties(clk, reset, bus_req, bus_grant, bus_ack); 
+
+input logic clk;
+input logic reset;
+
+input logic [2:0] bus_req;
+input logic [2:0] bus_grant;
+input logic bus_ack;
+
+parameter READY = 1'b0;
+parameter BUSY  = 1'b1;
+
+parameter NO_REQUEST = 3'b000; 
+parameter NO_GRANT = 3'b000; 
+
+// your definitions...
+
+a_reset: assert property(@(posedge clk) p_reset);
+
+// ...
+
+endmodule
+
+bind busarbiter busarbiter_properties(.*); 
+

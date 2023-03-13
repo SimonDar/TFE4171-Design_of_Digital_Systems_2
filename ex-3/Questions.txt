@@ -1,0 +1,17 @@
+Task 1 is worth 5 points, 
+Task 2 is worth 10 points, 
+Task 3 is worth 15 points, 
+Task 4 is worth 30 points, 
+Task 5 is worth 40 points. 
+Note that all grading above require corresponding codes. If not, points will be deducted accordingly, such as 50% or even more. 
+
+
+What outputs does the tool produce?
+-I- Check 'sva/inst_dff_property_suite/a_behavior1' unchanged, still holds.
+-I- Check 'sva/inst_dff_property_suite/a_behavior2' unchanged, still fails within 1 cycles from reset.
+
+Question 3.1.2: Where is the bug?
+The "bug" that failes is because it is formal verification. 
+With formal verification, it will try to find senarios that fail. 
+and because it is able to find these at behavior2. it will show fail(1). 
+the (1) indicates that the fail accoured one clock cycle from the reset. 
