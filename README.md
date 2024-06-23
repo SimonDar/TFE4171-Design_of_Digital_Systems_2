@@ -20,6 +20,6 @@ https://github.com/andernil/DDS2
 
 You can view the content of the PDF file by clicking the link below:
 
-[Exercise 1](./Exercise\ 1.1.pdf)
+[Exercise 1](./Exercise%201.1.pdf)
 
-[Exercise 2](./Exercise\ 2.0.pdf)
+[Exercise 2](./Exercise%202.0.pdf)
