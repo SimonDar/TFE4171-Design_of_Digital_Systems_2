@@ -14,3 +14,12 @@ https://github.com/mortepau/TFE4171 \
 https://github.com/sondre99v/TFE4171_Lab7 \
 https://github.com/mmshabab90/TFE4171-mine \
 https://github.com/andernil/DDS2 
+
+
+# View PDF Content
+
+You can view the content of the PDF file by clicking the link below:
+
+[Exercise 1](./Exercise\ 1.1.pdf)
+
+[Exercise 2](./Exercise\ 2.0.pdf)
